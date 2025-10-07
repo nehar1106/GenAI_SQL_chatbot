@@ -42,9 +42,8 @@ All components connect securely to AWS using environment-based credentials.
 
 ### Clone the Repository
 ```bash
-git clone https://github.com/your-username/genai-chatbot.git
-cd genai-chatbot
-```
+git clone https://github.com/nehar1106/GenAI_SQL_chatbot.git
+cd GenAI_SQL_chatbot
 
 python3 -m venv myenv
 source myenv/bin/activate
@@ -58,6 +57,7 @@ export ISENGARD_PRODUCTION_ACCOUNT=false
 export AWS_ACCESS_KEY_ID=
 export AWS_SECRET_ACCESS_KEY=
 export AWS_SESSION_TOKEN=
+```
 
 ### Run the application
 streamlit run nl2sql_chatbot_app_anthropic.py
