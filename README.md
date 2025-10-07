@@ -51,9 +51,8 @@ source myenv/bin/activate
 pip install boto3 psycopg2-binary
 pip3 install streamlit 
 
-# — Run the access_key, secret_key exports before starting streamline
-# — Also open the RDS (5432 ) port to your IP, as streamlit is running on your laptop
-streamlit run chatbot_app.py
+# Export the AWS access_key, secret_key, session_token
+# Open RDS (5432 ) port to your IP, as streamlit is running on your laptop
 
 export ISENGARD_PRODUCTION_ACCOUNT=false
 export AWS_ACCESS_KEY_ID=
