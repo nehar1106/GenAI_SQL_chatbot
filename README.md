@@ -53,7 +53,6 @@ pip3 install streamlit
 # Export the AWS access_key, secret_key, session_token
 # Open RDS (5432 ) port to your IP, as streamlit is running on your laptop
 
-export ISENGARD_PRODUCTION_ACCOUNT=false
 export AWS_ACCESS_KEY_ID=
 export AWS_SECRET_ACCESS_KEY=
 export AWS_SESSION_TOKEN=
